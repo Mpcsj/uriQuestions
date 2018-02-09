@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
 class Nota:
     def __init__(self,valor):
         self.valor = valor
