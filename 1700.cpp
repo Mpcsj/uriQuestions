@@ -38,7 +38,7 @@ int main() {
 int funcao(int palitoAnalisado, int diff, vector<vector<int>>&dp) {
     if (dp[palitoAnalisado][diff] == NOTPROCESSED) // Verifica se essa combinação de entradas já foi calculada.
     {
-        if (palitoAnalisado == 1) // Como a função é decrescente, 'indx = 1' representa o último ciclo, e deve ser terminal.
+        if (palitoAnalisado == 1) // Como a função é decrescente, 'palitoAnalisado = 1' representa o último ciclo, e deve ser terminal.
         {
             if (diff > palitos[1]) {// caso base da recursao
                 // Se a diferença atual é maior que a quantidade de palitos disponíveis de tamanho 1, não é possível igualar as antenas...
