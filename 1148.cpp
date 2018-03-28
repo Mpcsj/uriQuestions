@@ -102,7 +102,7 @@ int djikstra(int a, int b, int tam) {
                             peso_origem.origem = i;
                             listaDPontos.push_back(peso_origem);
                             //                            insereOrdenado(peso_origem, listaDPontos);
-                            listaDPontos.sort(compare);
+                            listaDPontos.sort(compare);//pessimo em termos de desempenho, mas a antiga solucao nao funcionou
                         }
 
                     }
